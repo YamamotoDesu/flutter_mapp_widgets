@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '1_wrap_widget/my_wrap_wiget.dart';
+import '2_text_form_widget/my_text_form_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Wrap Widget'),
         ),
-        body: const MyWrapWiget(),
+        body: const MyTextFormWidget(),
       ),
     );
   }
